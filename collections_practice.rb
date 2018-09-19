@@ -21,7 +21,7 @@ def remove_non_strings(arr)
 end
 
 def count_elements(hash)
-  counts = hash.new
+  counts = hash.new (0)
   
   
 end
