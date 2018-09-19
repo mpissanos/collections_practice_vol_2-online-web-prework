@@ -22,4 +22,4 @@ end
 
 def count_elements(array)
   array.each do |person|
-    person.each do ||
+    person.each do |key, value|
