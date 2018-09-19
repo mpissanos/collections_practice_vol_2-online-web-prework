@@ -23,3 +23,4 @@ end
 def count_elements(hash)
   
   hash.each do { key, val|
+end
