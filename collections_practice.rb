@@ -22,6 +22,6 @@ end
 
 def count_elements(hash)
   counts = Hash.new (0)
-  
+  hash.each do { |key, val|  
   
 end
