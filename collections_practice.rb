@@ -21,5 +21,5 @@ def remove_non_strings(arr)
 end
 
 def count_elements(array)
- array.each_with_object(Hash.new(0)) { |h1, h2| h2[h1[:product]] += 1 }
+ array.each_with_object(Hash.new(0)) { |h1, h2| h2[h1[:name]] += 1 }
 end
