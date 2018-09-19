@@ -23,3 +23,4 @@ end
 def count_elements(array)
   array.each do { |name, count| count[name] +=1 }
 end
+end
