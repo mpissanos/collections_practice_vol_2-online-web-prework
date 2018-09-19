@@ -23,7 +23,7 @@ end
 def count_elements(array)
  counts = Hash.new(0)
 
-a.map do |item|
+array.map do |item|
   counts[item[:key]] += 1
 end
 
