@@ -25,3 +25,4 @@ def count_elements(array)
     person.each_with_object do  |name, count| count[name] +=1 
   end
 end
+end
