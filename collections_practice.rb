@@ -22,6 +22,4 @@ end
 
 def count_elements(array)
   array.count { |name| name +=1 }
-   
-  end
 end
