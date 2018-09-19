@@ -20,8 +20,19 @@ def remove_non_strings(arr)
   arr.delete_if { |obj| !(obj.is_a? String) }
 end
 
-def count_elements(array)
-  array.each do |object|
-    object.each do { |name, count| name, :count[:name] + 1 }
+def count_elements(arr)
+ output_arr = [];
+  arr.each do | element |
+    counter = element[:count] = 1
+    if output_arr.include?(element) == false
+      output_arr << element
+  elsif output_arr.include?(element)
+      output_arr.map do |el|
+        el[:count] += 1
+      end
+    end
+  end
+  output_arr
+end
   end
 end
