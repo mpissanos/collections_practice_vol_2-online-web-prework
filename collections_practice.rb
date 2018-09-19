@@ -21,5 +21,5 @@ def remove_non_strings(arr)
 end
 
 def count_elements(array)
- Hash[array.group_by { |k, v| v }.map ]
+ 
 end
