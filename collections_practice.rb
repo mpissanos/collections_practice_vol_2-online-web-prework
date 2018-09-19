@@ -22,5 +22,5 @@ end
 
 def count_elements(hash)
   counts = Hash.new (0)
-  hash.group_by 
+  hash.group_by {| |      }
 end
