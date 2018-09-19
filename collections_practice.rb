@@ -22,6 +22,5 @@ end
 
 def count_elements(hash)
   counts = Hash.new (0)
-  hash.group_by  { |key, val| counts[val] += 1 }
-  end
+  hash.group_by 
 end
