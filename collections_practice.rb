@@ -21,7 +21,7 @@ def remove_non_strings(arr)
 end
 
 def count_elements(array)
-  array.count { |name| 
+  array.count { |name| name +=1 }
+   
   end
-end
 end
