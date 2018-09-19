@@ -22,6 +22,6 @@ end
 
 def count_elements(array)
   array.each do |object|
-    object.each do { |name, count| name, :count[:name] +=1 }
+    object.each do { |name, count| name, :count[:name] + 1 }
   end
 end
