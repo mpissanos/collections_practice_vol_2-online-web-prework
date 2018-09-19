@@ -22,5 +22,5 @@ end
 
 def count_elements(array)
   counts = []
-array.each_with_object { |word,counts| counts[word] += 1 }
+counts << array.each_with_object { |word,counts| counts[word] += 1 }
   end
