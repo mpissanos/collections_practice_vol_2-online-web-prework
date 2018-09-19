@@ -34,4 +34,4 @@ a = counts.collect do |key, count|
     {:key => key}
   end
 end
-
+end
