@@ -21,5 +21,5 @@ def remove_non_strings(arr)
 end
 
 def count_elements(array)
-  array.count { |name, count| count[name] +=1 }
+  array.each do { |name, count| count[name] +=1 }
 end
