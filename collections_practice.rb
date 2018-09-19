@@ -21,5 +21,17 @@ def remove_non_strings(arr)
 end
 
 def count_elements(array)
- array.each_with_object(Hash.new(0)) { |h1, h2| h2[h1[:name]] += 1 }
+ counts = Hash.new(0)
+
+a.map do |item|
+  counts[item[:key]] += 1
 end
+
+a = counts.collect do |key, count|
+  if count > 1
+    {:key => key, :count => count}
+  else
+    {:key => key}
+  end
+end
+
